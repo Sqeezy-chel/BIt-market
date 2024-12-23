@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+header a {
+    background-color: cyan;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    margin-top: 20px;
+}
+
+nav a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin: 40px 0px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+}
+
+.card img {
+    width: 400px;
+    height: 300px;
+}
+
+.card p {
+    font-size: 25px;
+}
+
+.card a {
+    text-decoration: none;
+    background-color: cyan;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1000px;
+    justify-content: center;
+}
+.info {
+background-color: cyan;
+display: flex;
+padding: 50px;
+
+}
+footer p {
+    font-size: 30px;
+    margin: 30px;
+}
+footer img {
+    width: 80px;
+    margin: 30px;
+}
